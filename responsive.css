@@ -1,0 +1,62 @@
+  @media only screen and (min-height: 760px) and (min-width: 1600px){
+    .logo{
+      font-size: 60px;
+    }
+    input{
+      padding: 40px;
+    }
+    input::placeholder{
+      font-size: 40px;
+    }
+    button h3{
+      font-size: 50px;
+    }
+    label h5{
+      font-size: 42px;
+    }
+  }
+  /* @media only screen and (max-height: 700px){
+
+  } */
+  @media only screen and (max-width: 480px){
+    .logo{
+      font-size: 25px;
+    }
+  }
+  @media only screen and (max-width: 315px){
+    body{
+      width: 315px;
+    }
+  }
+  @media only screen and (max-height: 545px){
+    .left-side{
+      height: 545px;
+    }
+    .right-side{
+      height: 545px;
+    }
+  }
+  @media only screen and (max-width: 991px){
+    .left-side{
+      clear: both;
+      width: 100%;
+      float: none;
+      clip-path: polygon(
+        0 0%,
+        100% 0,
+        100% calc(100% - 5vh),
+        0 100%
+      ); */
+    }
+    .right-side {
+      height: auto;
+      padding-bottom: 40px;
+      float: none;
+      margin-top: -5vh;
+      width: calc(100% + 5vw);
+      /* width: calc(50% + 2.5vw);
+      margin-top: -5vh;
+      height: 100vh;
+      background: #394b97; */
+    }
+  }

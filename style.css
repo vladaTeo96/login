@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 100px 0;
+  font: 44px "Arial";
+  color: white;
+  text-align: center;
+}
+.left-side{
+  width: calc(50% + 2.5vw);
+  float: left;
+  position: relative;
+  height: 100vh;
+  background: #dd1e4c;
+  /* clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%); */
+  clip-path: polygon(
+    0 0%,
+    100% 0,
+    calc(100% - 5vw) 100%,
+    0 100%
+  );
+}
+.right-side {
+  width: calc(50% + 2.5vw);
+  float: left;
+  margin-left: -5vw;
+  height: 100vh;
+  background: #394b97;
+}
+.logo{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.shape-for-in{
+  /* background-color: #AD310B; */
+  background: white;
+    -webkit-transition: font-size 0.2s linear;
+    -ms-transition: font-size 0.2s linear;
+    transition: font-size 0.2s linear;
+  /* width: 100px; */
+	/* height: 50px; */
+	transform: skew(-7deg);
+	/* background: #555; */
+}
+.background-none{
+  background: none;
+}
+.shape-for-in:hover{
+  font-size: 25px;
+}
+.shape-for-in input{
+
+  width: 93%;
+  margin-left: 6%;
+  border: none;
+  background: none;
+  transform: skew(7deg);
+  height: 50px;
+}
+
+/* .shape-for-in input:hover{
+  width: 70%;
+} */
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: none;
+  box-shadow: none;
+  outline: 0 none;
+}
+button{
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: white;
+  background: #363e3a;
+  transform: skew(-7deg);
+}
+button:hover{
+  border: none;
+  opacity: 0.9;
+}
+button h3{
+  transform: skew(7deg);
+}
+.y-cen{
+  height: 100%;
+}
+label{
+    padding: 10px;
+    background: #363e3a;
+    display: table;
+    color: #fff;
+    width: 100%;
+     }
+label h5{
+  transform: skew(7deg);
+}
+
+
+input[type="file"] {
+    display: none;
+}
+label:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+select{
+  width: 100%;
+}
+#inputState{
+  border-radius: 0px;
+}
+#inputState:focus{
+  border-color: none;
+  box-shadow: none;
+  outline: 0 none;
+}
